@@ -18,7 +18,7 @@ define(['require'], function(require){
 
 			switch(topic){
 				case 'tts.say':
-					require('child_process').exec('say '+data.get('text'));
+					require('child_process').exec('say '+data.text);
 					break;
 			}
 		}
