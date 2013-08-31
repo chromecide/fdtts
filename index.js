@@ -2,7 +2,7 @@ if (typeof define !== 'function') {
     var define = require('amdefine')(module);
 }
 
-define(['./mixins/tts'], function(chan){
+define(['./mixins/tts'], function(tts){
 	
 	var mixin = {
 		tts: tts
