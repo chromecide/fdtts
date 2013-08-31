@@ -20,7 +20,6 @@
     "url": "http://chromecide.com/"
   },
   "dependencies": {
-  	"irc":"0.3.x",
   	"amdefine": "0.0.5"
   },
   "repository": {

@@ -7,7 +7,10 @@ define(['require', 'irc'], function(require, irc){
 	var mixin = {
 		//called when first mixing in the functionality
 		init: function(cfg, callback){
-			
+			var self = this;
+			if(callback){
+			    callback(false, cfg);
+			}
 		},
 		//called when something is published to this channel
 		publish: function(topic, data){
