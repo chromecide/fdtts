@@ -1,0 +1,31 @@
+{
+  "name": "fdtts",
+  "version": "0.1.1",
+  "description": "Text to Speech Mixins for FluxData",
+  "homepage": "https://github.com/chromecide/fdtts",
+  "keywords": [
+    "FluxData",
+    "events",
+    "event-driven",
+    "framework",
+    "channels",
+    "channel",
+    "FluxData-Channel",
+    "TTS",
+    "Text to Speech"
+  ],
+  "author": {
+    "name": "Justin Pradier",
+    "email": "chromecide@chromecide.com",
+    "url": "http://chromecide.com/"
+  },
+  "dependencies": {
+  	"irc":"0.3.x",
+  	"amdefine": "0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chromecide/fdtts.git"
+  },
+  "main": "index.js"
+}
