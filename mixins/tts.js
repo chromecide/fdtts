@@ -3,7 +3,7 @@ if (typeof define !== 'function') {
     var define = require('amdefine')(module);
 }
 
-define(['require', 'irc'], function(require, irc){
+define(['require'], function(require){
 	var mixin = {
 		//called when first mixing in the functionality
 		init: function(cfg, callback){
@@ -24,5 +24,5 @@ define(['require', 'irc'], function(require, irc){
 		}
 	};
 	
-	return mixin;	
+	return mixin;
 });
