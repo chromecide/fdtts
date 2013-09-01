@@ -40,10 +40,12 @@ define(['require'], function(require){
 			}
 
 			var command = 'say -v '+voice+' -r '+rate+' '+data.text;
-			console.log(command);
+			
 			switch(topic){
 				case 'tts.say':
-					require('child_process').exec();
+					require('child_process').exec(command, function(){
+						self.emit('said', data);
+					});
 					break;
 			}
 		}
