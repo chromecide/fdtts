@@ -3,7 +3,7 @@ fdtts
 
 TTS Mixins for FluxData
 
-Currently only Macs with "say" is are supported
+Currently only Macs with "say" are supported
 
 Installation:
 
