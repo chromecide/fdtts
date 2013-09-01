@@ -39,9 +39,11 @@ define(['require'], function(require){
 				rate = data.rate;
 			}
 
+			var command = 'say -v '+voice+' -r '+rate+' '+data.text;
+			console.log(command);
 			switch(topic){
 				case 'tts.say':
-					require('child_process').exec('say -v '+voice+' -r '+rate+' '+data.text);
+					require('child_process').exec();
 					break;
 			}
 		}
